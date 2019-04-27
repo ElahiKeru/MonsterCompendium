@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.489
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonsterCompendium", "MonsterCompendium\MonsterCompendium.csproj", "{39CE687D-A978-4156-9C4D-CDDAF757ADF5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{39CE687D-A978-4156-9C4D-CDDAF757ADF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39CE687D-A978-4156-9C4D-CDDAF757ADF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39CE687D-A978-4156-9C4D-CDDAF757ADF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39CE687D-A978-4156-9C4D-CDDAF757ADF5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ED6D551E-541F-4837-8439-D46C0E053DB8}
+	EndGlobalSection
+EndGlobal
