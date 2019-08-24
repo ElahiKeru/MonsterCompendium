@@ -1844,66 +1844,430 @@
     While in mist form, the yochlol can enter a creature's space and stop there. Each time that creature starts its turn with the yochlol in its space, the creature must succeed on a DC 14 Constitution Save or be poisoned until the start of its next turn, while poisoned in this way the target is incapacitated.</actions>
         <notes></notes>
     </monster>
-<!--     <monster>
-        <name></name>
-        <size></size>
-        <type></type>
-        <subtype></subtype>
-        <alignment></alignment>
-        <armorclass></armorclass>
-        <hitpoints></hitpoints>
-        <hitdice></hitdice>
-        <dicetype></dicetype>
-        <speed></speed>
-        <strength></strength>
-        <dexterity></dexterity>
-        <constitution></constitution>
-        <intelligence></intelligence>
-        <wisdom></wisdom>
-        <charisma></charisma>
-        <saves></saves>
+    <monster>
+        <name>Barbed Devil</name>
+        <size>Medium</size>
+        <type>Fiend</type>
+        <subtype>Devil</subtype>
+        <alignment>L-E</alignment>
+        <armorclass>15</armorclass>
+        <hitpoints>110</hitpoints>
+        <hitdice>13</hitdice>
+        <dicetype>8</dicetype>
+        <speed>30 ft</speed>
+        <strength>16</strength>
+        <dexterity>17</dexterity>
+        <constitution>18</constitution>
+        <intelligence>12</intelligence>
+        <wisdom>14</wisdom>
+        <charisma>14</charisma>
+        <saves>STR +6, CON +7, WIS +5, CHA +5</saves>
+        <skills>Deception +5, Insight +5, Perception +8</skills>
+        <damagevuln></damagevuln>
+        <damageres>cold; bludgeoning, piercing, and slashing from nonmagical weapons that aren't silvered</damageres>
+        <damageimmune>fire, poison</damageimmune>
+        <conditionimmune>poisoned</conditionimmune>
+        <senses>darkvision 120 ft., passive Perception 18</senses>
+        <languages>Infernal, telepathy 120 ft.</languages>
+        <challenge>5</challenge>
+        <xp>1800</xp>
+        <features>    Barbed Hide: At the start of each of its turns, the barbed devil deals 5 (1d10) piercing damage to any creature grappling it.
+    Devil's Sight: Magical darkness doesn't impede the devil's darkvision.
+    Magic Resistance: The devil has advantage on saving throws against spells and other magical effects.</features>
+        <actions>    Multiattack: The devil makes three meleeattacks: one with its tail and two with its claws. Alternatively, it can use hurl flame twice.
+    Claw: Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit 6 (1d6+3) piercing damage
+    Tail: Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 10 (2d6+3) piercing damage.
+    Hurl Flame: Ranged Spell Attack: +5 to hit, range 150 ft., one target. Hit: 10 (3d6) fire damage. If the target is a flammable object that isn't being worn or carried, it also catches fire.</actions>
+        <notes>Also known as a Hamatula</notes>
+    </monster>
+    <monster>
+        <name>Bearded Devil</name>
+        <size>Medium</size>
+        <type>Fiend</type>
+        <subtype>Devil</subtype>
+        <alignment>L-E</alignment>
+        <armorclass>13</armorclass>
+        <hitpoints>52</hitpoints>
+        <hitdice>8</hitdice>
+        <dicetype>8</dicetype>
+        <speed>30 ft</speed>
+        <strength>16</strength>
+        <dexterity>15</dexterity>
+        <constitution>15</constitution>
+        <intelligence>9</intelligence>
+        <wisdom>11</wisdom>
+        <charisma>11</charisma>
+        <saves>STR +5, CON +4, WIS +2</saves>
         <skills></skills>
         <damagevuln></damagevuln>
-        <damageres></damageres>
-        <damageimmune></damageimmune>
-        <conditionimmune></conditionimmune>
-        <senses></senses>
-        <languages></languages>
-        <challenge></challenge>
-        <xp></xp>
-        <features></features>
-        <actions></actions>
+        <damageres>cold; bludgeoning, piercing, and slashing from nonmagical weapons that aren't silvered</damageres>
+        <damageimmune>fire, poison</damageimmune>
+        <conditionimmune>poisoned</conditionimmune>
+        <senses>darkvision 120 ft., passive Perception 10</senses>
+        <languages>Infernal, telepathy 120 ft.</languages>
+        <challenge>3</challenge>
+        <xp>700</xp>
+        <features>    Devil's Sight: Magical darkness doesn't impede the devil's darkvision.
+    Magic Resistance: The devil has advantage on saving throws against spells and other magical effects
+    Steadfast: The devil can't be frightened while it can see an allied creature within 30 feet of it.</features>
+        <actions>    Multiattack: The devil makes two attack: one with its beard and one with its glaive.
+    Beard: Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit: 6 (1d8+2) piercing damage, and the target must succeed on a DC 12 Constitution Save or be poisoned for 1 minute. While poisoned in this way, the target can't regain hitpoints. The target can repeat the save at the end of each of its turns, ending the effect on success.
+    Glaive: Melee Weapon Attack: +5 to hit, reach 10 ft., one target. Hit: 8 (1d10+3) slashing damage. If the target is a creature other than an undead or construct, it must succeed on a DC 12 Constitution Save or lose 5 (1d10) hit points at the start of each of its turns due to an infernal wound. Each time the devil hits the wounded target with this attack, the damage dealt by the wound increases by 5 (1d10). Any creature can take an action to stanch the wound with a successful DC 12 Medicine check. The wound also closes if the target receives magical healing.</actions>
+        <notes>Also known as a Barbazu</notes>
+    </monster>
+    <monster>
+        <name>Bone Devil</name>
+        <size>Large</size>
+        <type>Fiend</type>
+        <subtype>Devil</subtype>
+        <alignment>L-E</alignment>
+        <armorclass>19</armorclass>
+        <hitpoints>142</hitpoints>
+        <hitdice>15</hitdice>
+        <dicetype>10</dicetype>
+        <speed>40 ft/fly 40 ft</speed>
+        <strength>18</strength>
+        <dexterity>16</dexterity>
+        <constitution>18</constitution>
+        <intelligence>13</intelligence>
+        <wisdom>14</wisdom>
+        <charisma>16</charisma>
+        <saves>INT +5, WIS +6, CHA +7</saves>
+        <skills>Deception +7, Insight +6</skills>
+        <damagevuln></damagevuln>
+        <damageres>cold; bludgeoning, piercing,and slashing from nonmagical weapons that aren't silvered</damageres>
+        <damageimmune>fire, poison</damageimmune>
+        <conditionimmune>poisoned</conditionimmune>
+        <senses>darkvision 120 ft., passive Perception 12</senses>
+        <languages>Infernal, telepathy 120 ft.</languages>
+        <challenge>9</challenge>
+        <xp>5000</xp>
+        <features>    Devil's Sight: Magical darkness doesn't impede the devil's darkvision.
+    Magic Resistance: The devil has advantage on saving throws against spells and other magical effects.</features>
+        <actions>    Multiattack: The devil makes three attacks: two with its claws and one with its sting. Alternatively with a polearm in hand, it can make two attacks: one with its hooked polearm and one with its sting.
+    Claw: Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit: 8 (1d8+4) slashing damage.
+    Sting: Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit: 13 (2d8+4) piercing damage plus 17 (5d6) poison damage, and the target must succeed on a DC 14 Constitution Save or become poisoned for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.
+    Hooked Polearm: Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit: 17 (2d12+4) piercing damage. If the target is a Huge or smaller creature, it is grappled (escape DC 14). Until this grapple ends, the devil can't use its polearm on another target.</actions>
+        <notes>Also known as an Osyluth</notes>
+    </monster>
+    <monster>
+        <name>Chain Devil</name>
+        <size>Medium</size>
+        <type>Fiend</type>
+        <subtype>Devil</subtype>
+        <alignment>L-E</alignment>
+        <armorclass>16</armorclass>
+        <hitpoints>85</hitpoints>
+        <hitdice>10</hitdice>
+        <dicetype>8</dicetype>
+        <speed>30 ft</speed>
+        <strength>18</strength>
+        <dexterity>15</dexterity>
+        <constitution>18</constitution>
+        <intelligence>11</intelligence>
+        <wisdom>12</wisdom>
+        <charisma>14</charisma>
+        <saves>CON +7, WIS +4, CHA +5</saves>
+        <skills></skills>
+        <damagevuln></damagevuln>
+        <damageres>cold; bludgeoning, piercing, and slashing from nonmagical weapons that aren't silvered</damageres>
+        <damageimmune>fire, poison</damageimmune>
+        <conditionimmune>poisoned</conditionimmune>
+        <senses>darkvision 120 ft., passive Perception 11</senses>
+        <languages>Infernal, telepathy 120 ft.</languages>
+        <challenge>8</challenge>
+        <xp>3900</xp>
+        <features>    Devil's Sight: Magical darkness doesn't impede the devil's darkvision
+    Magic Resistance: The devil has advantage on saving throws against spells and other magical effects.</features>
+        <actions>    Multiattack: The devil makes two attacks with its chains
+    Chain: Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit 11 (2d6+4) slashing damage. The target is grappled (escape DC 14) if the devil isn't already grappling a creature. Until this grapple ends, the target is restrained and takes 7 (2d6) piercing damage at the start of each of its turns.
+    Animate Chains (Recharges after a Short or Long Rest): Up to four chains the devil can see within 60 feet of it magically sprout razor-edged barbs and animate under the devil's control, provided that the chains aren't being worn or carried.
+    Each animated chain is an object with AC 20. 20 hitpoints, resistance to piercing damage, and immunity to psychicand thunder damage. When the devil uses Multiattack on its turn,it can use each animated chain to make one additional chain attack. An animated chain can grapple one creature of its own but can't make attacks while grappling. An animated chain reverts to its inanimate state if reduced to 0 hit points or if the devil is incapacitated or dies.
+    REACTION - Unnerving Mask: When a creature the devil can see starts its turn within 30 feet of the devil, the devil can create the illusion that it looks like one of the creature's departed loved ones or bitter enemies. If the creature can see the devil, it must succeed on a DC 14 Wisdom Save or be frightened until the end of its turn.</actions>
+        <notes>Also known as a Kyton</notes>
+    </monster>
+    <monster>
+        <name>Erinyes</name>
+        <size>Medium</size>
+        <type>Fiend</type>
+        <subtype>Devil</subtype>
+        <alignment>L-E</alignment>
+        <armorclass>18</armorclass>
+        <hitpoints>153</hitpoints>
+        <hitdice>18</hitdice>
+        <dicetype>8</dicetype>
+        <speed>30 ft/fly 60 ft</speed>
+        <strength>18</strength>
+        <dexterity>16</dexterity>
+        <constitution>18</constitution>
+        <intelligence>14</intelligence>
+        <wisdom>14</wisdom>
+        <charisma>18</charisma>
+        <saves>DEX +7, CON +8, WIS +6, CHA +8</saves>
+        <skills></skills>
+        <damagevuln></damagevuln>
+        <damageres>cold; bludgeoning, piercing, and slahsing from nonmagical weapons that aren't silvered</damageres>
+        <damageimmune>fire, poison</damageimmune>
+        <conditionimmune>poisoned</conditionimmune>
+        <senses>truesight 120 ft., passive Perception 12</senses>
+        <languages>Infernal, telepathy 120 ft.</languages>
+        <challenge>12</challenge>
+        <xp>8400</xp>
+        <features>    Hellish Weapons: The erinyes's weapon attacks are magical and deal an extra 13 (3d8) poison damage on a hit (included in the attacks).
+    Magic Resistance: The erinyes has advantage on saving throws against spells and other magical effects.</features>
+        <actions>    Multiattack: The erinyes makes three attacks, or if it has a rope of entanglement, it may use two of its attacks to use that item instead.
+    Longsword: Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 8 (1d8+4) slashing damage, or 9 (1d10+4) slashing damage if used with two hands, plus 13 (3d8) poison damage.
+    Longbow: Ranged Weapon Attack: +7 to hit, range 150/600 ft., one target. Hit: 7 (1d8+3) piercing damage plus 13 (3d8) poison damage, and the targetmust succeed on a DC 14 Constitution Save or be poisoned. The poison lasts util it is removed by the Lesser Restoration spell or similar magic.
+    REACTION - Parry: The erinyes adds 4 to its AC against one melee attack that would hit it. To do so, the erinyes must see the attacker and be wielding a melee weapon.</actions>
         <notes></notes>
-    </monster> -->
-<!--     <monster>
-        <name></name>
-        <size></size>
-        <type></type>
-        <subtype></subtype>
-        <alignment></alignment>
-        <armorclass></armorclass>
-        <hitpoints></hitpoints>
-        <hitdice></hitdice>
-        <dicetype></dicetype>
-        <speed></speed>
-        <strength></strength>
-        <dexterity></dexterity>
-        <constitution></constitution>
-        <intelligence></intelligence>
-        <wisdom></wisdom>
-        <charisma></charisma>
+    </monster>
+    <monster>
+        <name>Horned Devil</name>
+        <size>Large</size>
+        <type>Fiend</type>
+        <subtype>Devil</subtype>
+        <alignment>L-E</alignment>
+        <armorclass>18</armorclass>
+        <hitpoints>178</hitpoints>
+        <hitdice>17</hitdice>
+        <dicetype>10</dicetype>
+        <speed>20 ft/fly 60 ft</speed>
+        <strength>22</strength>
+        <dexterity>17</dexterity>
+        <constitution>21</constitution>
+        <intelligence>12</intelligence>
+        <wisdom>16</wisdom>
+        <charisma>17</charisma>
+        <saves>STR +10, DEX +7, WIS +7, CHA +7</saves>
+        <skills></skills>
+        <damagevuln></damagevuln>
+        <damageres>cold; bludgeoning, piercing, and slashing from nonmagical weapons that aren't silvered.</damageres>
+        <damageimmune>fire, poison</damageimmune>
+        <conditionimmune>poisoned</conditionimmune>
+        <senses>darkvision 120 ft., passive Perception 13</senses>
+        <languages>Infernal, telepathy 120 ft.</languages>
+        <challenge>11</challenge>
+        <xp>7200</xp>
+        <features>    Devil's Sight: Magical darkness doesn't impede the devil's darkvision.
+    Magic Resistance: The devil has advantage on saving throws against spells and other magical effects.</features>
+        <actions>    Multiattack: The devil makes three melee attacks: two with its fork and one with its tail. It can use Hurl Flame in place of any melee attack.
+    Fork: Melee Weapon Attack: +10 to hit, reach 10 ft., one target. Hit: 15 (2d8+6) piercing damage.
+    Tail: Melee Weapon Attack: +10 to hit, reach 10 ft., one target. Hit: 10 (1d8+6) piercing damage. If the target is a creature other than an undead or a construct, it must uscceed on a DC 17 Constitution Save or lose 10 (3d6) hit points at the start of each of its turns due to an infernal wound. Each time the devil hits the wounded target withthis attack, the damage dealt by the wound increases by 10 (3d6). Any creature can take an action to stanch the wound with a successful DC 12 Medicine check. Thewound also closes if the target receives magical healing.
+    Hurl Flame: Ranged Spell Attack: +7 to hit, range 150 ft., one target. Hit: 14 (4d6) fire damage. If the target is a flammable object that isn't being worn or carried, it also catches fire.</actions>
+        <notes>Also known as a Malebranche</notes>
+    </monster>
+    <monster>
+        <name>Ice Devil</name>
+        <size>Large</size>
+        <type>Fiend</type>
+        <subtype>Devil</subtype>
+        <alignment>L-E</alignment>
+        <armorclass>18</armorclass>
+        <hitpoints>180</hitpoints>
+        <hitdice>19</hitdice>
+        <dicetype>10</dicetype>
+        <speed>40 ft</speed>
+        <strength>21</strength>
+        <dexterity>14</dexterity>
+        <constitution>18</constitution>
+        <intelligence>18</intelligence>
+        <wisdom>15</wisdom>
+        <charisma>18</charisma>
+        <saves>DEX +7, CON +9, WIS +7, CHA +9</saves>
+        <skills></skills>
+        <damagevuln></damagevuln>
+        <damageres>Bludgeoning, piercing, and slashing from nonmagical weapons that aren't silvered.</damageres>
+        <damageimmune>cold, fire, poison</damageimmune>
+        <conditionimmune>poisoned</conditionimmune>
+        <senses>blindsight 60 ft., darkvision 120 ft., passive Perception 12</senses>
+        <languages>Infernal, telepathy 120 ft.</languages>
+        <challenge>14</challenge>
+        <xp>11500</xp>
+        <features>    Devil's Sight: Magical darkness doesn't impede the devil's darkvision.
+    Magic Resistance: The devil has advantage on saving throws against spells and other magical effects.</features>
+        <actions>    Multiattack: The devil makes three attacks: one with its bite, one with its claw, and one with its tail. Alternatively, if it has an Ice Spear it makes two attacks: one with its spear and one with its tail.
+    Bite: Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit: 12 (2d6+5) piercing damage plus 10 (3d6) cold damage.
+    Claw: Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit: 10 (2d4+5) slashing damage plus 10 (3d6) cold damage.
+    Tail: Melee Weapon Attack: +10 to hit, reach 10 ft., one target. Hit: 12 (2d6+5) bludgeoning damage plus 10 (3d6) cold damage.
+    Ice Spear: Melee Weapon Attack: +10 to hit, reach 10 ft., one target. Hit 14 (2d8+5) piercing damage plus 10 (3d6) cold damage. If the target is a creature, it must succeed on a DC 15 Constitution Save or for 1 minute its speed is reduced by 10 feet; it can take either an action or a bonus action on each of its turns, not both; and it can't take reactions. The target can repeat the save at the end of each of its turns, ending the effect on itself on a success.
+    Wall of Ice (Recharge 6): The devil magically forms an opaque wall of ice on a solid surface it can see within 60 feet of it. The wall is 1 foot thick and up to 30 feet long and 10 feet high, or it's a hemispherical dome oup to 20 feet in diameter.
+    When the wall appears, each creature in its space is pushed out of it by the shortest route. The creature chooses which side of the wall to end up on, unless the creature is incapacitated. The creature then makes a DC 17 Dexterity Save taking 35 (10d6) cold damage on a failed save, or half as much on a successful one.
+    The wall lasts for 1 minute or until the devil is incapacitated or dies. The wall can be damaged and breached; each 10 foot section  has AC 5, 30 hitpoints, vulnerability to fire damage, and immunity to acid, cold, necrotic, poison, and psychic damage. If a section is destroyed, it leaves behind a sheet of frigid air in the space the wall occupied. Whenever a creature finishes moving through the frigid air on a turn, willingly or otherwise, the creature must make a DC 17 Constitution Save, taking 17 (5d6) cold damage on a failed save, or half as much damage on a successful one. The frigid air dissipates when the rest of the wall vanishes.</actions>
+        <notes>Also known as a Gelugon</notes>
+    </monster>
+    <monster>
+        <name>Imp</name>
+        <size>Tiny</size>
+        <type>Fiend</type>
+        <subtype>Devil, Shapechanger</subtype>
+        <alignment>L-E</alignment>
+        <armorclass>13</armorclass>
+        <hitpoints>10</hitpoints>
+        <hitdice>3</hitdice>
+        <dicetype>4</dicetype>
+        <speed>20 ft/fly 40 ft</speed>
+        <strength>6</strength>
+        <dexterity>17</dexterity>
+        <constitution>13</constitution>
+        <intelligence>11</intelligence>
+        <wisdom>12</wisdom>
+        <charisma>14</charisma>
+        <saves></saves>
+        <skills>Deception +4, Insight +3, Persuasion +4, Stealth +5</skills>
+        <damagevuln></damagevuln>
+        <damageres>cold; bludgeoning, piercing, and slashing from nonmagical weapons that aren't silvered.</damageres>
+        <damageimmune>fire, poison</damageimmune>
+        <conditionimmune>poisoned</conditionimmune>
+        <senses>Darkvision 120 ft., passive Perception 11</senses>
+        <languages>Infernal, Common</languages>
+        <challenge>1</challenge>
+        <xp>200</xp>
+        <features>    Shapechanger: The imp can use its action to polymorph into a beast form that resembles a rat (speed 20 ft.), a raven (20 ft., fly 60 ft.), or a spider (20 ft., climb 20 ft.), or back into its true form. Its statistics are the same in each form, except for the speed changes noted above. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies.
+    Devil's Sight: Magical darkness doesn't impede the imp's darkvision.
+    Magic Resistance: The imp has advantage on saving throws against spells and other magical effects.</features>
+        <actions>    Sting (Bite in beast form): Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5 (1d4+3) piercing damage, and the target must make a DC 11 Constitution Save taking 10 (3d6) poison damage on a failed save, or half as much damage on a successful one.
+    Invisibility: The imp magically turns invisible until its attacks or until its concentration ends (As if concentrating on a spell). Any equipment the imp wears or carries is invisible with it.</actions>
+        <notes></notes>
+    </monster>
+    <monster>
+        <name>Lemure</name>
+        <size>Medium</size>
+        <type>Fiend</type>
+        <subtype>Devil</subtype>
+        <alignment>L-E</alignment>
+        <armorclass>7</armorclass>
+        <hitpoints>13</hitpoints>
+        <hitdice>3</hitdice>
+        <dicetype>8</dicetype>
+        <speed>15 ft</speed>
+        <strength>10</strength>
+        <dexterity>5</dexterity>
+        <constitution>11</constitution>
+        <intelligence>1</intelligence>
+        <wisdom>11</wisdom>
+        <charisma>3</charisma>
         <saves></saves>
         <skills></skills>
+        <damagevuln></damagevuln>
+        <damageres>cold</damageres>
+        <damageimmune>fire, poison</damageimmune>
+        <conditionimmune>charmed, frightened, poisoned</conditionimmune>
+        <senses>darkvision 120 ft., passive Perception 10</senses>
+        <languages>Infernal (can't speak)</languages>
+        <challenge>0</challenge>
+        <xp>10</xp>
+        <features>    Devil's Sight: Magical darkness doesn't impede the lemure's darkvision
+    Hellish Rejuvenation: A lemure that dies in the Nine Hells comes back to life with all its hit points in 1d10 days unless it's killed by a good aligned creature with a bless spell cast on that creature or its remains are sprinkled with holy water.</features>
+        <actions>    Fist: Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 2 (1d4) bludgeoning damage.</actions>
+        <notes></notes>
+    </monster>
+    <monster>
+        <name>Pit Fiend</name>
+        <size>Large</size>
+        <type>Fiend</type>
+        <subtype>Devil</subtype>
+        <alignment>L-E</alignment>
+        <armorclass>19</armorclass>
+        <hitpoints>300</hitpoints>
+        <hitdice>24</hitdice>
+        <dicetype>10</dicetype>
+        <speed>30 ft/fly 60 ft</speed>
+        <strength>26</strength>
+        <dexterity>14</dexterity>
+        <constitution>24</constitution>
+        <intelligence>22</intelligence>
+        <wisdom>18</wisdom>
+        <charisma>24</charisma>
+        <saves>DEX +8, CON +13, WIS +10</saves>
+        <skills></skills>
+        <damagevuln></damagevuln>
+        <damageres>cold; bludgeoning, piercing, and slashing from nonmagical weapons that aren't silvered.</damageres>
+        <damageimmune>fire, poison</damageimmune>
+        <conditionimmune>poisoned</conditionimmune>
+        <senses>truesight 120 ft., passive Perception 14</senses>
+        <languages>Infernal, telepathy 120 ft.</languages>
+        <challenge>20</challenge>
+        <xp>25000</xp>
+        <features>    Fear Aura: Any creature hostile to the pit fiend that starts its turn within 20 feet of the pit fiend must make a DC 21 Wisdom Save, unless the pit fiend is incapacitated. On a failed save, the creature is frightened until the start of its next turn. If a creature's saving throw is successful the creature is immune to the effect for the next 24 hours.
+    Magic Resistance: The pit fiend has advantage on saving throws against spells and other magical effects.
+    Magic Weapons: The pit fiend's weapon attacks are magical.
+    Innate Spellcasting: The pit fiend's spellcasting ability is Charisma (spell save DC 21). The pit fiend can innately cast the following spells, requiring no material components:
+    At Will: Detect Magic, Fireball
+    3/day each: Hold Monster, Wall of Fire</features>
+        <actions>    Multiattack: The pit fiend maeks four attacks: one with its bite, one with its claw, one with its mace, and one with its tail.
+    Bite: Melee Weapon Attack: +14 to hit, reach 5 ft., one target. Hit: 22 (4d6+8) piercing damage. The target must succeed on a DC 21 Constitution Save or become poisoned. While poisoned in this way, the target can't regain hit points, and it takes 21 (6d6) poison damage at the start of each of its turns. The poisoned target can repeat this saving throw at the end of each of its turns, ending the effect on itself on a success.
+    Claw: Melee Weapon Attack: +14 to hit, reach 10 ft., one target. Hit: 17 (2d8+8) slashing damage.
+    Mace: Melee Weapon Attack: +14 to hit, reach 10 ft., one target. Hit: 15 (2d6+8) bludgeoning damage plus 21 (6d6) fire damage.
+    Tail: Melee Weapon Attack: +14 to hit, reach 10 ft., one target. Hit: 24 (3d10+8) bludgeoning damage.</actions>
+        <notes></notes>
+    </monster>
+    <monster>
+        <name>Spined Devil</name>
+        <size>Small</size>
+        <type>Fiend</type>
+        <subtype>Devil</subtype>
+        <alignment>L-E</alignment>
+        <armorclass>13</armorclass>
+        <hitpoints>22</hitpoints>
+        <hitdice>5</hitdice>
+        <dicetype>6</dicetype>
+        <speed>20 ft/fly 40 ft</speed>
+        <strength>10</strength>
+        <dexterity>15</dexterity>
+        <constitution>12</constitution>
+        <intelligence>11</intelligence>
+        <wisdom>14</wisdom>
+        <charisma>8</charisma>
+        <saves></saves>
+        <skills></skills>
+        <damagevuln></damagevuln>
+        <damageres>cold; bludgeoning, piercing, and slashing from nonmagical weapons that aren't silvered.</damageres>
+        <damageimmune>fire, poison</damageimmune>
+        <conditionimmune>poisoned</conditionimmune>
+        <senses>darkvision 120 ft., passive Perception 12</senses>
+        <languages>Infernal, telepathy 120 ft.</languages>
+        <challenge>2</challenge>
+        <xp>450</xp>
+        <features>    Devil's Sight: Magical darkness doesn't impede the devil's darkvision.
+    Flyby: The devil doesn't provoke an opportunity attack when it flies out of an enemy's reach.
+    Limited Spines: The devil has twelve tail spines. Used spines regrow by the time the devil finishes a long rest.
+    Magic Resistance: The devil has advantage on saving throws agaisnt spells and other magical effects.</features>
+        <actions>    Multiattack: The devil makes two attacks: one with its bite and one with its fork or two with its tail spines.
+    Bite: Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 5 (2d4) slashing damage.
+    Fork: Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 3 (1d6) piercing damage.
+    Tail Spine: Ranged Weapon Attack: +4 to hit, range 20/80 ft., one target. Hit: 4 (1d4+2) piercing damage plus 3 (1d6) fire damage.</actions>
+        <notes>Also known as Spinagon</notes>
+    </monster>
+    <monster>
+        <name>Allosaurus</name>
+        <size>Large</size>
+        <type>Beast</type>
+        <subtype></subtype>
+        <alignment>U</alignment>
+        <armorclass>13</armorclass>
+        <hitpoints>51</hitpoints>
+        <hitdice>6</hitdice>
+        <dicetype>10</dicetype>
+        <speed>60 ft</speed>
+        <strength>19</strength>
+        <dexterity>13</dexterity>
+        <constitution>17</constitution>
+        <intelligence>2</intelligence>
+        <wisdom>12</wisdom>
+        <charisma>5</charisma>
+        <saves></saves>
+        <skills>Perception +5</skills>
         <damagevuln></damagevuln>
         <damageres></damageres>
         <damageimmune></damageimmune>
         <conditionimmune></conditionimmune>
-        <senses></senses>
+        <senses>passive Perception 15</senses>
         <languages></languages>
-        <challenge></challenge>
-        <xp></xp>
-        <features></features>
-        <actions></actions>
+        <challenge>2</challenge>
+        <xp>450</xp>
+        <features>    Pounce: If the allosaurus moves at least 30 feet straight toward a creature and then hits it with a claw attack on the same turn, that target must succeed on a DC 13 Strength Save or be knocked prone. IF the target is prone, the allosaurus can make one bite attack against it as a bonus action.</features>
+        <actions>    Bite: Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 15 (2d10+4) piercing damage.
+    Claw: Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 8 (1d8+4) slashing damage.</actions>
         <notes></notes>
     </monster>
     <monster>
@@ -2339,534 +2703,224 @@
         <features></features>
         <actions></actions>
         <notes></notes>
-    </monster> -->
-    <!-- <monster> -->
-        <!-- <name></name> -->
-        <!-- <size></size> -->
-        <!-- <type></type> -->
-        <!-- <subtype></subtype> -->
-        <!-- <alignment></alignment> -->
-        <!-- <armorclass></armorclass> -->
-        <!-- <hitpoints></hitpoints> -->
-        <!-- <hitdice></hitdice> -->
-        <!-- <dicetype></dicetype> -->
-        <!-- <speed></speed> -->
-        <!-- <strength></strength> -->
-        <!-- <dexterity></dexterity> -->
-        <!-- <constitution></constitution> -->
-        <!-- <intelligence></intelligence> -->
-        <!-- <wisdom></wisdom> -->
-        <!-- <charisma></charisma> -->
-        <!-- <saves></saves> -->
-        <!-- <skills></skills> -->
-        <!-- <damagevuln></damagevuln> -->
-        <!-- <damageres></damageres> -->
-        <!-- <damageimmune></damageimmune> -->
-        <!-- <conditionimmune></conditionimmune> -->
-        <!-- <senses></senses> -->
-        <!-- <languages></languages> -->
-        <!-- <challenge></challenge> -->
-        <!-- <xp></xp> -->
-        <!-- <features></features> -->
-        <!-- <actions></actions> -->
-        <!-- <notes></notes> -->
-    <!-- </monster> -->
-    <!-- <monster> -->
-        <!-- <name></name> -->
-        <!-- <size></size> -->
-        <!-- <type></type> -->
-        <!-- <subtype></subtype> -->
-        <!-- <alignment></alignment> -->
-        <!-- <armorclass></armorclass> -->
-        <!-- <hitpoints></hitpoints> -->
-        <!-- <hitdice></hitdice> -->
-        <!-- <dicetype></dicetype> -->
-        <!-- <speed></speed> -->
-        <!-- <strength></strength> -->
-        <!-- <dexterity></dexterity> -->
-        <!-- <constitution></constitution> -->
-        <!-- <intelligence></intelligence> -->
-        <!-- <wisdom></wisdom> -->
-        <!-- <charisma></charisma> -->
-        <!-- <saves></saves> -->
-        <!-- <skills></skills> -->
-        <!-- <damagevuln></damagevuln> -->
-        <!-- <damageres></damageres> -->
-        <!-- <damageimmune></damageimmune> -->
-        <!-- <conditionimmune></conditionimmune> -->
-        <!-- <senses></senses> -->
-        <!-- <languages></languages> -->
-        <!-- <challenge></challenge> -->
-        <!-- <xp></xp> -->
-        <!-- <features></features> -->
-        <!-- <actions></actions> -->
-        <!-- <notes></notes> -->
-    <!-- </monster> -->
-    <!-- <monster> -->
-        <!-- <name></name> -->
-        <!-- <size></size> -->
-        <!-- <type></type> -->
-        <!-- <subtype></subtype> -->
-        <!-- <alignment></alignment> -->
-        <!-- <armorclass></armorclass> -->
-        <!-- <hitpoints></hitpoints> -->
-        <!-- <hitdice></hitdice> -->
-        <!-- <dicetype></dicetype> -->
-        <!-- <speed></speed> -->
-        <!-- <strength></strength> -->
-        <!-- <dexterity></dexterity> -->
-        <!-- <constitution></constitution> -->
-        <!-- <intelligence></intelligence> -->
-        <!-- <wisdom></wisdom> -->
-        <!-- <charisma></charisma> -->
-        <!-- <saves></saves> -->
-        <!-- <skills></skills> -->
-        <!-- <damagevuln></damagevuln> -->
-        <!-- <damageres></damageres> -->
-        <!-- <damageimmune></damageimmune> -->
-        <!-- <conditionimmune></conditionimmune> -->
-        <!-- <senses></senses> -->
-        <!-- <languages></languages> -->
-        <!-- <challenge></challenge> -->
-        <!-- <xp></xp> -->
-        <!-- <features></features> -->
-        <!-- <actions></actions> -->
-        <!-- <notes></notes> -->
-    <!-- </monster> -->
-    <!-- <monster> -->
-        <!-- <name></name> -->
-        <!-- <size></size> -->
-        <!-- <type></type> -->
-        <!-- <subtype></subtype> -->
-        <!-- <alignment></alignment> -->
-        <!-- <armorclass></armorclass> -->
-        <!-- <hitpoints></hitpoints> -->
-        <!-- <hitdice></hitdice> -->
-        <!-- <dicetype></dicetype> -->
-        <!-- <speed></speed> -->
-        <!-- <strength></strength> -->
-        <!-- <dexterity></dexterity> -->
-        <!-- <constitution></constitution> -->
-        <!-- <intelligence></intelligence> -->
-        <!-- <wisdom></wisdom> -->
-        <!-- <charisma></charisma> -->
-        <!-- <saves></saves> -->
-        <!-- <skills></skills> -->
-        <!-- <damagevuln></damagevuln> -->
-        <!-- <damageres></damageres> -->
-        <!-- <damageimmune></damageimmune> -->
-        <!-- <conditionimmune></conditionimmune> -->
-        <!-- <senses></senses> -->
-        <!-- <languages></languages> -->
-        <!-- <challenge></challenge> -->
-        <!-- <xp></xp> -->
-        <!-- <features></features> -->
-        <!-- <actions></actions> -->
-        <!-- <notes></notes> -->
-    <!-- </monster> -->
-    <!-- <monster> -->
-        <!-- <name></name> -->
-        <!-- <size></size> -->
-        <!-- <type></type> -->
-        <!-- <subtype></subtype> -->
-        <!-- <alignment></alignment> -->
-        <!-- <armorclass></armorclass> -->
-        <!-- <hitpoints></hitpoints> -->
-        <!-- <hitdice></hitdice> -->
-        <!-- <dicetype></dicetype> -->
-        <!-- <speed></speed> -->
-        <!-- <strength></strength> -->
-        <!-- <dexterity></dexterity> -->
-        <!-- <constitution></constitution> -->
-        <!-- <intelligence></intelligence> -->
-        <!-- <wisdom></wisdom> -->
-        <!-- <charisma></charisma> -->
-        <!-- <saves></saves> -->
-        <!-- <skills></skills> -->
-        <!-- <damagevuln></damagevuln> -->
-        <!-- <damageres></damageres> -->
-        <!-- <damageimmune></damageimmune> -->
-        <!-- <conditionimmune></conditionimmune> -->
-        <!-- <senses></senses> -->
-        <!-- <languages></languages> -->
-        <!-- <challenge></challenge> -->
-        <!-- <xp></xp> -->
-        <!-- <features></features> -->
-        <!-- <actions></actions> -->
-        <!-- <notes></notes> -->
-    <!-- </monster> -->
-    <!-- <monster> -->
-        <!-- <name></name> -->
-        <!-- <size></size> -->
-        <!-- <type></type> -->
-        <!-- <subtype></subtype> -->
-        <!-- <alignment></alignment> -->
-        <!-- <armorclass></armorclass> -->
-        <!-- <hitpoints></hitpoints> -->
-        <!-- <hitdice></hitdice> -->
-        <!-- <dicetype></dicetype> -->
-        <!-- <speed></speed> -->
-        <!-- <strength></strength> -->
-        <!-- <dexterity></dexterity> -->
-        <!-- <constitution></constitution> -->
-        <!-- <intelligence></intelligence> -->
-        <!-- <wisdom></wisdom> -->
-        <!-- <charisma></charisma> -->
-        <!-- <saves></saves> -->
-        <!-- <skills></skills> -->
-        <!-- <damagevuln></damagevuln> -->
-        <!-- <damageres></damageres> -->
-        <!-- <damageimmune></damageimmune> -->
-        <!-- <conditionimmune></conditionimmune> -->
-        <!-- <senses></senses> -->
-        <!-- <languages></languages> -->
-        <!-- <challenge></challenge> -->
-        <!-- <xp></xp> -->
-        <!-- <features></features> -->
-        <!-- <actions></actions> -->
-        <!-- <notes></notes> -->
-    <!-- </monster> -->
-    <!-- <monster> -->
-        <!-- <name></name> -->
-        <!-- <size></size> -->
-        <!-- <type></type> -->
-        <!-- <subtype></subtype> -->
-        <!-- <alignment></alignment> -->
-        <!-- <armorclass></armorclass> -->
-        <!-- <hitpoints></hitpoints> -->
-        <!-- <hitdice></hitdice> -->
-        <!-- <dicetype></dicetype> -->
-        <!-- <speed></speed> -->
-        <!-- <strength></strength> -->
-        <!-- <dexterity></dexterity> -->
-        <!-- <constitution></constitution> -->
-        <!-- <intelligence></intelligence> -->
-        <!-- <wisdom></wisdom> -->
-        <!-- <charisma></charisma> -->
-        <!-- <saves></saves> -->
-        <!-- <skills></skills> -->
-        <!-- <damagevuln></damagevuln> -->
-        <!-- <damageres></damageres> -->
-        <!-- <damageimmune></damageimmune> -->
-        <!-- <conditionimmune></conditionimmune> -->
-        <!-- <senses></senses> -->
-        <!-- <languages></languages> -->
-        <!-- <challenge></challenge> -->
-        <!-- <xp></xp> -->
-        <!-- <features></features> -->
-        <!-- <actions></actions> -->
-        <!-- <notes></notes> -->
-    <!-- </monster> -->
-    <!-- <monster> -->
-        <!-- <name></name> -->
-        <!-- <size></size> -->
-        <!-- <type></type> -->
-        <!-- <subtype></subtype> -->
-        <!-- <alignment></alignment> -->
-        <!-- <armorclass></armorclass> -->
-        <!-- <hitpoints></hitpoints> -->
-        <!-- <hitdice></hitdice> -->
-        <!-- <dicetype></dicetype> -->
-        <!-- <speed></speed> -->
-        <!-- <strength></strength> -->
-        <!-- <dexterity></dexterity> -->
-        <!-- <constitution></constitution> -->
-        <!-- <intelligence></intelligence> -->
-        <!-- <wisdom></wisdom> -->
-        <!-- <charisma></charisma> -->
-        <!-- <saves></saves> -->
-        <!-- <skills></skills> -->
-        <!-- <damagevuln></damagevuln> -->
-        <!-- <damageres></damageres> -->
-        <!-- <damageimmune></damageimmune> -->
-        <!-- <conditionimmune></conditionimmune> -->
-        <!-- <senses></senses> -->
-        <!-- <languages></languages> -->
-        <!-- <challenge></challenge> -->
-        <!-- <xp></xp> -->
-        <!-- <features></features> -->
-        <!-- <actions></actions> -->
-        <!-- <notes></notes> -->
-    <!-- </monster> -->
-    <!-- <monster> -->
-        <!-- <name></name> -->
-        <!-- <size></size> -->
-        <!-- <type></type> -->
-        <!-- <subtype></subtype> -->
-        <!-- <alignment></alignment> -->
-        <!-- <armorclass></armorclass> -->
-        <!-- <hitpoints></hitpoints> -->
-        <!-- <hitdice></hitdice> -->
-        <!-- <dicetype></dicetype> -->
-        <!-- <speed></speed> -->
-        <!-- <strength></strength> -->
-        <!-- <dexterity></dexterity> -->
-        <!-- <constitution></constitution> -->
-        <!-- <intelligence></intelligence> -->
-        <!-- <wisdom></wisdom> -->
-        <!-- <charisma></charisma> -->
-        <!-- <saves></saves> -->
-        <!-- <skills></skills> -->
-        <!-- <damagevuln></damagevuln> -->
-        <!-- <damageres></damageres> -->
-        <!-- <damageimmune></damageimmune> -->
-        <!-- <conditionimmune></conditionimmune> -->
-        <!-- <senses></senses> -->
-        <!-- <languages></languages> -->
-        <!-- <challenge></challenge> -->
-        <!-- <xp></xp> -->
-        <!-- <features></features> -->
-        <!-- <actions></actions> -->
-        <!-- <notes></notes> -->
-    <!-- </monster> -->
-    <!-- <monster> -->
-        <!-- <name></name> -->
-        <!-- <size></size> -->
-        <!-- <type></type> -->
-        <!-- <subtype></subtype> -->
-        <!-- <alignment></alignment> -->
-        <!-- <armorclass></armorclass> -->
-        <!-- <hitpoints></hitpoints> -->
-        <!-- <hitdice></hitdice> -->
-        <!-- <dicetype></dicetype> -->
-        <!-- <speed></speed> -->
-        <!-- <strength></strength> -->
-        <!-- <dexterity></dexterity> -->
-        <!-- <constitution></constitution> -->
-        <!-- <intelligence></intelligence> -->
-        <!-- <wisdom></wisdom> -->
-        <!-- <charisma></charisma> -->
-        <!-- <saves></saves> -->
-        <!-- <skills></skills> -->
-        <!-- <damagevuln></damagevuln> -->
-        <!-- <damageres></damageres> -->
-        <!-- <damageimmune></damageimmune> -->
-        <!-- <conditionimmune></conditionimmune> -->
-        <!-- <senses></senses> -->
-        <!-- <languages></languages> -->
-        <!-- <challenge></challenge> -->
-        <!-- <xp></xp> -->
-        <!-- <features></features> -->
-        <!-- <actions></actions> -->
-        <!-- <notes></notes> -->
-    <!-- </monster> -->
-    <!-- <monster> -->
-        <!-- <name></name> -->
-        <!-- <size></size> -->
-        <!-- <type></type> -->
-        <!-- <subtype></subtype> -->
-        <!-- <alignment></alignment> -->
-        <!-- <armorclass></armorclass> -->
-        <!-- <hitpoints></hitpoints> -->
-        <!-- <hitdice></hitdice> -->
-        <!-- <dicetype></dicetype> -->
-        <!-- <speed></speed> -->
-        <!-- <strength></strength> -->
-        <!-- <dexterity></dexterity> -->
-        <!-- <constitution></constitution> -->
-        <!-- <intelligence></intelligence> -->
-        <!-- <wisdom></wisdom> -->
-        <!-- <charisma></charisma> -->
-        <!-- <saves></saves> -->
-        <!-- <skills></skills> -->
-        <!-- <damagevuln></damagevuln> -->
-        <!-- <damageres></damageres> -->
-        <!-- <damageimmune></damageimmune> -->
-        <!-- <conditionimmune></conditionimmune> -->
-        <!-- <senses></senses> -->
-        <!-- <languages></languages> -->
-        <!-- <challenge></challenge> -->
-        <!-- <xp></xp> -->
-        <!-- <features></features> -->
-        <!-- <actions></actions> -->
-        <!-- <notes></notes> -->
-    <!-- </monster> -->
-    <!-- <monster> -->
-        <!-- <name></name> -->
-        <!-- <size></size> -->
-        <!-- <type></type> -->
-        <!-- <subtype></subtype> -->
-        <!-- <alignment></alignment> -->
-        <!-- <armorclass></armorclass> -->
-        <!-- <hitpoints></hitpoints> -->
-        <!-- <hitdice></hitdice> -->
-        <!-- <dicetype></dicetype> -->
-        <!-- <speed></speed> -->
-        <!-- <strength></strength> -->
-        <!-- <dexterity></dexterity> -->
-        <!-- <constitution></constitution> -->
-        <!-- <intelligence></intelligence> -->
-        <!-- <wisdom></wisdom> -->
-        <!-- <charisma></charisma> -->
-        <!-- <saves></saves> -->
-        <!-- <skills></skills> -->
-        <!-- <damagevuln></damagevuln> -->
-        <!-- <damageres></damageres> -->
-        <!-- <damageimmune></damageimmune> -->
-        <!-- <conditionimmune></conditionimmune> -->
-        <!-- <senses></senses> -->
-        <!-- <languages></languages> -->
-        <!-- <challenge></challenge> -->
-        <!-- <xp></xp> -->
-        <!-- <features></features> -->
-        <!-- <actions></actions> -->
-        <!-- <notes></notes> -->
-    <!-- </monster> -->
-    <!-- <monster> -->
-        <!-- <name></name> -->
-        <!-- <size></size> -->
-        <!-- <type></type> -->
-        <!-- <subtype></subtype> -->
-        <!-- <alignment></alignment> -->
-        <!-- <armorclass></armorclass> -->
-        <!-- <hitpoints></hitpoints> -->
-        <!-- <hitdice></hitdice> -->
-        <!-- <dicetype></dicetype> -->
-        <!-- <speed></speed> -->
-        <!-- <strength></strength> -->
-        <!-- <dexterity></dexterity> -->
-        <!-- <constitution></constitution> -->
-        <!-- <intelligence></intelligence> -->
-        <!-- <wisdom></wisdom> -->
-        <!-- <charisma></charisma> -->
-        <!-- <saves></saves> -->
-        <!-- <skills></skills> -->
-        <!-- <damagevuln></damagevuln> -->
-        <!-- <damageres></damageres> -->
-        <!-- <damageimmune></damageimmune> -->
-        <!-- <conditionimmune></conditionimmune> -->
-        <!-- <senses></senses> -->
-        <!-- <languages></languages> -->
-        <!-- <challenge></challenge> -->
-        <!-- <xp></xp> -->
-        <!-- <features></features> -->
-        <!-- <actions></actions> -->
-        <!-- <notes></notes> -->
-    <!-- </monster> -->
-    <!-- <monster> -->
-        <!-- <name></name> -->
-        <!-- <size></size> -->
-        <!-- <type></type> -->
-        <!-- <subtype></subtype> -->
-        <!-- <alignment></alignment> -->
-        <!-- <armorclass></armorclass> -->
-        <!-- <hitpoints></hitpoints> -->
-        <!-- <hitdice></hitdice> -->
-        <!-- <dicetype></dicetype> -->
-        <!-- <speed></speed> -->
-        <!-- <strength></strength> -->
-        <!-- <dexterity></dexterity> -->
-        <!-- <constitution></constitution> -->
-        <!-- <intelligence></intelligence> -->
-        <!-- <wisdom></wisdom> -->
-        <!-- <charisma></charisma> -->
-        <!-- <saves></saves> -->
-        <!-- <skills></skills> -->
-        <!-- <damagevuln></damagevuln> -->
-        <!-- <damageres></damageres> -->
-        <!-- <damageimmune></damageimmune> -->
-        <!-- <conditionimmune></conditionimmune> -->
-        <!-- <senses></senses> -->
-        <!-- <languages></languages> -->
-        <!-- <challenge></challenge> -->
-        <!-- <xp></xp> -->
-        <!-- <features></features> -->
-        <!-- <actions></actions> -->
-        <!-- <notes></notes> -->
-    <!-- </monster> -->
-    <!-- <monster> -->
-        <!-- <name></name> -->
-        <!-- <size></size> -->
-        <!-- <type></type> -->
-        <!-- <subtype></subtype> -->
-        <!-- <alignment></alignment> -->
-        <!-- <armorclass></armorclass> -->
-        <!-- <hitpoints></hitpoints> -->
-        <!-- <hitdice></hitdice> -->
-        <!-- <dicetype></dicetype> -->
-        <!-- <speed></speed> -->
-        <!-- <strength></strength> -->
-        <!-- <dexterity></dexterity> -->
-        <!-- <constitution></constitution> -->
-        <!-- <intelligence></intelligence> -->
-        <!-- <wisdom></wisdom> -->
-        <!-- <charisma></charisma> -->
-        <!-- <saves></saves> -->
-        <!-- <skills></skills> -->
-        <!-- <damagevuln></damagevuln> -->
-        <!-- <damageres></damageres> -->
-        <!-- <damageimmune></damageimmune> -->
-        <!-- <conditionimmune></conditionimmune> -->
-        <!-- <senses></senses> -->
-        <!-- <languages></languages> -->
-        <!-- <challenge></challenge> -->
-        <!-- <xp></xp> -->
-        <!-- <features></features> -->
-        <!-- <actions></actions> -->
-        <!-- <notes></notes> -->
-    <!-- </monster> -->
-    <!-- <monster> -->
-        <!-- <name></name> -->
-        <!-- <size></size> -->
-        <!-- <type></type> -->
-        <!-- <subtype></subtype> -->
-        <!-- <alignment></alignment> -->
-        <!-- <armorclass></armorclass> -->
-        <!-- <hitpoints></hitpoints> -->
-        <!-- <hitdice></hitdice> -->
-        <!-- <dicetype></dicetype> -->
-        <!-- <speed></speed> -->
-        <!-- <strength></strength> -->
-        <!-- <dexterity></dexterity> -->
-        <!-- <constitution></constitution> -->
-        <!-- <intelligence></intelligence> -->
-        <!-- <wisdom></wisdom> -->
-        <!-- <charisma></charisma> -->
-        <!-- <saves></saves> -->
-        <!-- <skills></skills> -->
-        <!-- <damagevuln></damagevuln> -->
-        <!-- <damageres></damageres> -->
-        <!-- <damageimmune></damageimmune> -->
-        <!-- <conditionimmune></conditionimmune> -->
-        <!-- <senses></senses> -->
-        <!-- <languages></languages> -->
-        <!-- <challenge></challenge> -->
-        <!-- <xp></xp> -->
-        <!-- <features></features> -->
-        <!-- <actions></actions> -->
-        <!-- <notes></notes> -->
-    <!-- </monster> -->
-    <!-- <monster> -->
-        <!-- <name></name> -->
-        <!-- <size></size> -->
-        <!-- <type></type> -->
-        <!-- <subtype></subtype> -->
-        <!-- <alignment></alignment> -->
-        <!-- <armorclass></armorclass> -->
-        <!-- <hitpoints></hitpoints> -->
-        <!-- <hitdice></hitdice> -->
-        <!-- <dicetype></dicetype> -->
-        <!-- <speed></speed> -->
-        <!-- <strength></strength> -->
-        <!-- <dexterity></dexterity> -->
-        <!-- <constitution></constitution> -->
-        <!-- <intelligence></intelligence> -->
-        <!-- <wisdom></wisdom> -->
-        <!-- <charisma></charisma> -->
-        <!-- <saves></saves> -->
-        <!-- <skills></skills> -->
-        <!-- <damagevuln></damagevuln> -->
-        <!-- <damageres></damageres> -->
-        <!-- <damageimmune></damageimmune> -->
-        <!-- <conditionimmune></conditionimmune> -->
-        <!-- <senses></senses> -->
-        <!-- <languages></languages> -->
-        <!-- <challenge></challenge> -->
-        <!-- <xp></xp> -->
-        <!-- <features></features> -->
-        <!-- <actions></actions> -->
-        <!-- <notes></notes> -->
-    <!-- </monster> -->
+    </monster>
+    <monster>
+        <name></name>
+        <size></size>
+        <type></type>
+        <subtype></subtype>
+        <alignment></alignment>
+        <armorclass></armorclass>
+        <hitpoints></hitpoints>
+        <hitdice></hitdice>
+        <dicetype></dicetype>
+        <speed></speed>
+        <strength></strength>
+        <dexterity></dexterity>
+        <constitution></constitution>
+        <intelligence></intelligence>
+        <wisdom></wisdom>
+        <charisma></charisma>
+        <saves></saves>
+        <skills></skills>
+        <damagevuln></damagevuln>
+        <damageres></damageres>
+        <damageimmune></damageimmune>
+        <conditionimmune></conditionimmune>
+        <senses></senses>
+        <languages></languages>
+        <challenge></challenge>
+        <xp></xp>
+        <features></features>
+        <actions></actions>
+        <notes></notes>
+    </monster>
+    <monster>
+        <name></name>
+        <size></size>
+        <type></type>
+        <subtype></subtype>
+        <alignment></alignment>
+        <armorclass></armorclass>
+        <hitpoints></hitpoints>
+        <hitdice></hitdice>
+        <dicetype></dicetype>
+        <speed></speed>
+        <strength></strength>
+        <dexterity></dexterity>
+        <constitution></constitution>
+        <intelligence></intelligence>
+        <wisdom></wisdom>
+        <charisma></charisma>
+        <saves></saves>
+        <skills></skills>
+        <damagevuln></damagevuln>
+        <damageres></damageres>
+        <damageimmune></damageimmune>
+        <conditionimmune></conditionimmune>
+        <senses></senses>
+        <languages></languages>
+        <challenge></challenge>
+        <xp></xp>
+        <features></features>
+        <actions></actions>
+        <notes></notes>
+    </monster>
+    <monster>
+        <name></name>
+        <size></size>
+        <type></type>
+        <subtype></subtype>
+        <alignment></alignment>
+        <armorclass></armorclass>
+        <hitpoints></hitpoints>
+        <hitdice></hitdice>
+        <dicetype></dicetype>
+        <speed></speed>
+        <strength></strength>
+        <dexterity></dexterity>
+        <constitution></constitution>
+        <intelligence></intelligence>
+        <wisdom></wisdom>
+        <charisma></charisma>
+        <saves></saves>
+        <skills></skills>
+        <damagevuln></damagevuln>
+        <damageres></damageres>
+        <damageimmune></damageimmune>
+        <conditionimmune></conditionimmune>
+        <senses></senses>
+        <languages></languages>
+        <challenge></challenge>
+        <xp></xp>
+        <features></features>
+        <actions></actions>
+        <notes></notes>
+    </monster>
+    <monster>
+        <name></name>
+        <size></size>
+        <type></type>
+        <subtype></subtype>
+        <alignment></alignment>
+        <armorclass></armorclass>
+        <hitpoints></hitpoints>
+        <hitdice></hitdice>
+        <dicetype></dicetype>
+        <speed></speed>
+        <strength></strength>
+        <dexterity></dexterity>
+        <constitution></constitution>
+        <intelligence></intelligence>
+        <wisdom></wisdom>
+        <charisma></charisma>
+        <saves></saves>
+        <skills></skills>
+        <damagevuln></damagevuln>
+        <damageres></damageres>
+        <damageimmune></damageimmune>
+        <conditionimmune></conditionimmune>
+        <senses></senses>
+        <languages></languages>
+        <challenge></challenge>
+        <xp></xp>
+        <features></features>
+        <actions></actions>
+        <notes></notes>
+    </monster>
+    <monster>
+        <name></name>
+        <size></size>
+        <type></type>
+        <subtype></subtype>
+        <alignment></alignment>
+        <armorclass></armorclass>
+        <hitpoints></hitpoints>
+        <hitdice></hitdice>
+        <dicetype></dicetype>
+        <speed></speed>
+        <strength></strength>
+        <dexterity></dexterity>
+        <constitution></constitution>
+        <intelligence></intelligence>
+        <wisdom></wisdom>
+        <charisma></charisma>
+        <saves></saves>
+        <skills></skills>
+        <damagevuln></damagevuln>
+        <damageres></damageres>
+        <damageimmune></damageimmune>
+        <conditionimmune></conditionimmune>
+        <senses></senses>
+        <languages></languages>
+        <challenge></challenge>
+        <xp></xp>
+        <features></features>
+        <actions></actions>
+        <notes></notes>
+    </monster>
+    <monster>
+        <name></name>
+        <size></size>
+        <type></type>
+        <subtype></subtype>
+        <alignment></alignment>
+        <armorclass></armorclass>
+        <hitpoints></hitpoints>
+        <hitdice></hitdice>
+        <dicetype></dicetype>
+        <speed></speed>
+        <strength></strength>
+        <dexterity></dexterity>
+        <constitution></constitution>
+        <intelligence></intelligence>
+        <wisdom></wisdom>
+        <charisma></charisma>
+        <saves></saves>
+        <skills></skills>
+        <damagevuln></damagevuln>
+        <damageres></damageres>
+        <damageimmune></damageimmune>
+        <conditionimmune></conditionimmune>
+        <senses></senses>
+        <languages></languages>
+        <challenge></challenge>
+        <xp></xp>
+        <features></features>
+        <actions></actions>
+        <notes></notes>
+    </monster>
+    <monster>
+        <name></name>
+        <size></size>
+        <type></type>
+        <subtype></subtype>
+        <alignment></alignment>
+        <armorclass></armorclass>
+        <hitpoints></hitpoints>
+        <hitdice></hitdice>
+        <dicetype></dicetype>
+        <speed></speed>
+        <strength></strength>
+        <dexterity></dexterity>
+        <constitution></constitution>
+        <intelligence></intelligence>
+        <wisdom></wisdom>
+        <charisma></charisma>
+        <saves></saves>
+        <skills></skills>
+        <damagevuln></damagevuln>
+        <damageres></damageres>
+        <damageimmune></damageimmune>
+        <conditionimmune></conditionimmune>
+        <senses></senses>
+        <languages></languages>
+        <challenge></challenge>
+        <xp></xp>
+        <features></features>
+        <actions></actions>
+        <notes></notes>
+    </monster>
     <!-- <monster> -->
         <!-- <name></name> -->
         <!-- <size></size> -->
